@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:text=" — 任务主题"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/task_title_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="0dp"
+        android:hint="   空"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="20sp"
+        android:background="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:text=" — 任务详情"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/task_details_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="0dp"
+        android:hint="   空"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="20sp"
+        android:background="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:text=" — 截止时间"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/task_deadline_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="0dp"
+        android:hint="   空"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="20dp"
+        android:background="#FFFFFF"
+        />
+
+</LinearLayout>
